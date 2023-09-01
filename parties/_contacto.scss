@@ -1,0 +1,60 @@
+.menu_principal-cn li a:hover {
+    color: rgb(213, 38, 236);}
+
+    .text-block-cn {
+        position: relative;
+        bottom: 150px;
+        color: white;
+        text-align: center;
+        font-family: Georgia, Times, Times New Roman, serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 100px;
+        text-decoration: line-through;
+        box-shadow: -1px -4px 20px 20px rgba(255, 255, 255, 0.781);
+        }
+        .cont-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+               @include mobile {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+       }
+            .text-infor {
+              position: relative;
+              bottom: 120px;
+                color: white;
+               grid-column: 1;
+               padding: 20px;
+               text-align: justify;
+          
+               & h2 {
+                font-size: 30px;
+                color: rgb(8, 64, 168);
+                position: relative;
+                right: 5px;
+              }
+              & h4 {
+                font-size: 20px;
+                color: rgb(8, 64, 168);
+              }
+            }
+          }
+          
+          .musculacion {
+            width: 600px;
+           grid-column: 2;
+           position: relative;
+          bottom: 110px;
+          
+          }
+          .a-b {
+            width: 400px;
+            position: relative;
+            left: 130px;
+               @include mobile {
+                position: relative;
+              left: 10px;
+       }
+          }

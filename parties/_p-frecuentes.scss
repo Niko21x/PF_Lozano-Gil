@@ -1,0 +1,68 @@
+.menu_principal-pr li a:hover {
+    color: rgb(222, 245, 13);
+}
+
+.text-block-pr {
+    position: relative;
+    bottom: 150px;
+    color: white;
+    text-align: center;
+    font-family: Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 100px;
+    text-decoration: line-through;
+    box-shadow: -1px -4px 20px 20px rgba(244, 248, 5, 0.781);
+    }
+
+.cuadro {
+  @include mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .goku {
+            width: 400px;
+            position: relative;
+            bottom: 30px;
+          }
+          .card_ejemplo {
+            background-color:rgb(0, 0, 0);
+            border-radius: 30px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgb(251, 255, 2);
+            height: 350px;
+            width: 500px;   
+            margin: 10px;
+            & h2 {
+                color: white;
+                text-align: justify;
+              } 
+          }
+          .vegeta {
+            width: 400px;
+            position: relative;
+            bottom: 300px;
+            @include mobile {
+              margin-top: 80px;
+         }
+          }
+
+      }
+      #carouselExample {
+        display: flex;
+       justify-content: center;
+       @include mobile  {
+          height: auto;
+          width: auto;
+         }
+   
+
+            .carousel-inner {
+            text-align: center;
+            justify-content: center;
+            }
+      }

@@ -1,21 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./images/pexels-pixabay-36717 (1).jpg" type="image/x-icon">
+    <meta name="keywords" content="Gym, Entrenamiento, Entrenamiento muscular, Entrenamiento libre, Entrenamiento casa, gym music">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="./images/Logo1.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <title>Prueba</title>
+    <title>PowerGrooveFitness</title>
 </head>
 <body class="index">
     <div class="FONDO">
      <header class="header">
-        <div class="logo-boton"> <!-- Logo a la izquierda -->
-            <img src="./images/Logo1.png" alt="Logo">
-            <h1 class="slogan">Vive como un Campeon</h1>
+      <div class="logo-boton"> <!-- Logo a la izquierda -->
+        <img src="./images/Logo1.png" alt="Logo">
+        <h1 class="slogan_i">Vive como un Campeon</h1>
+    </div>
+    <div class="center-container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent"">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./Pages/e_pesas.html">E. Pesas</a>
+              <a class="nav-link" href="./Pages/e_casa.html">E.Casa</a>
+              <a class="nav-link" href="./Pages/e_libre.html">E.Libre</a>
+              <a class="nav-link" href="./Pages/playlist.html">Playlist</a>
+              <a class="nav-link" href="./Pages/p_frecuentes.html">P.Frecuentes</a>
+              <a class="nav-link" href="./Pages/contacto.html">¿Quien Soy?</a>
+            </div>
+          </div>
         </div>
-    <button class="boton">Botón</button>
+      </nav>
+    </div>
+    <img class="gohan" src="./images/gohan.jpg" alt="No Pain No Gain">
     </header>
     <div class="frase">
         <h1>READY FOR THE NEXT LEVEL</h1>
@@ -24,36 +46,42 @@
     </div>
     <main>
       <!-- ------------Tarjetas--------------------------- -->
+      <div class="my-custom-font">
      <div class="grid-container">
-        <div class="card card-1">
-            <div class="imagen_personaje">
-              <div class="detalle">
+        <div class="card card-1 c-p">
+            <div class="imagen_personaje_1">
+              <div class="detalle_1">
                 <h2>Programa de Entrenamiento</h2>
                 <p>En el camino del fitness, cada paso hacia tus metas demuestra tu determinación. Cada repetición, elección saludable y gota de sudor te acercan a tu mejor versión. Mantén viva tu pasión, visualiza tus objetivos y trabaja incansablemente. Eres el arquitecto de tu éxito en este desafiante viaje.</p>
-                <div class="boton_extra"><h6>Leer Mas</h6></div>
+                <div class="boton_extra1"><a href="./Pages/e_pesas.html"><h6>Leer Mas</h6></a></div>
               </div>
             </div>
         </div>
-        <div class="card card-2">
+        <div class="card card-2 c-p">
             <div class="imagen_personaje_2">
               <div class="detalle_2">
                 <h2>Playlist</h2>
                 <p> ¿Sabías que el tipo de música que elijas durante ejercicios repetitivos está directamente relacionado con un incremento en tu rendimiento? La elección musical adecuada puede ser la chispa que impulse tus logros en tu Entrenamiento</p>
-                <div class="boton_extra"><h6>Leer Mas</h6></div>
+                <div class="boton_extra2"><a href="./Pages/playlist.html"><h6>Leer Mas</h6></a></div>
               </div>
             </div>
         </div>
-        <div class="card card-3">
+        <div class="card card-3 c-p">
           
             <div class="imagen_personaje_3">
               <div class="detalle_3">
                 <h2>Preguntas Frecuentes</h2>
                 <p>En el viaje hacia el éxito en el fitness, las preguntas actúan como guías esenciales. Cada pregunta nos lleva un paso más cerca de comprender cómo lograr nuestros objetivos.  Desde la elección de rutinas hasta la dieta y suplementos, cada respuesta es una herramienta para el progreso. </p>
-                <div class="boton_extra"><h6>Leer Mas</h6></div>
+                <div class="boton_extra3"><a href="./Pages/p_frecuentes.html"><h6>Leer Mas</h6></a></div>
               </div>
             </div>
-         
         </div>
+        
+      </div>
+    </div>
+    <div class="never_give_up">
+      <img src="./images/never.jpg" alt="NEVER GIVE UP">
+    </div>
       <!-- ---------Final tarjetas------------------------ -->
     </main>
     <!-- ----------------Pie de pagina---------- -->
@@ -61,8 +89,8 @@
       <div class="contenedor">
         <div class="footer-row">
             <div class="footer-links">
-                <h4>Inicio</h4>
-                <ul>
+                <h4 class="inicio">Inicio</h4>
+                <ul class="animacion">
                     <li><a href="./index.html">Menu Principal</a></li>
                     <li><a href="./Pages/e_pesas.html">Entrenamiento con pesas</a></li>
                     <li><a href="./Pages/e_libre.html">Entrenamiento libre</a></li>
@@ -70,8 +98,8 @@
                 </ul>
             </div>
             <div class="footer-links">
-                <h4>Ayuda</h4>
-                <ul>
+                <h4 class="ayuda">Ayuda</h4>
+                <ul class="animacion">
                     <li><a href="./Pages/p_frecuentes.html">Preguntas Frecuentes</a></li>
                     <li><a href="./Pages/contacto.html">¿Quien soy?</a></li>
                     <li><a href="./Pages/playlist.html">Playlist para Entrenamiento</a></li>
@@ -79,17 +107,21 @@
                 </ul>
             </div>
             <div class="footer-links">
-                <h4>Sigueme</h4>
+                <h4 class="sigueme">Sigueme</h4>
                 <div class="social-link">
+                  <ul>
                     <a href="https://www.facebook.com/nicolas.lozano.9083"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
                     <a href="#"><i class="fab fa-linkedin"></i></a>
-                </div>
+                  </ul>
+                  </div>
         </div>
     </div>
 </footer>
+</div> 
     <!-- final pie de pagina------------------- -->
-      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
 </html>
