@@ -1,58 +1,44 @@
-.menu_principal-lib li a:hover {
-    color: rgb(0, 252, 76);
-  }
-  .text-block-lib {
-    position: relative;
-    bottom: 150px;
-    color: white;
-    text-align: center;
-    font-family: Georgia, Times, Times New Roman, serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 100px;
-    text-decoration: line-through;
-    box-shadow: -1px -4px 20px 20px rgba(0, 247, 82, 0.781);
-    }
-    .cont-grid-l {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        @include mobile {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-       }
-        
-        .text-infor-lib {
-            position: relative;
-            bottom: 120px;
-            color: white;
-           grid-column: 1;
-           padding: 20px;
-           text-align: justify;
-          
-            
-      
-           & h2 {
-            font-size: 30px;
-            color:  rgba(0, 247, 82, 0.781);
-            position: relative;
-            right: 5px;
-          }
-          & h4 {
-            font-size: 20px;
-            color:  rgba(0, 247, 82, 0.781);
-          }
-        }
-      }
-      
-      .musculacion {
-        width: 600px;
-       grid-column: 2;
-       position: relative;
-      bottom: 120px;
-      left: 50px;
-      }
-      
-  
- 
-  
+
+
+.cont-grid-l {
+max-width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+@include mobile {
+max-width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.text-infor-lib {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+grid-column: 1;
+padding: 20px;
+text-align: justify;
+@include mobile {
+max-width: 100%;
+position: relative;
+bottom: -20px;
+}
+
+
+& h2 {
+font-size: 30px;
+color:  rgba(0, 247, 82, 0.781);
+position: relative;
+right: 5px;
+}
+& h4 {
+font-size: 20px;
+color:  rgba(0, 247, 82, 0.781);
+}
+}
+}
+
+
+
+

@@ -10,54 +10,129 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Preguntas Frecuentes</title>
 </head>
-<body class="ejemplo">
-  <main>
+<body>
+  
     <header class="heade-1">
-        <div class="logo-boton"> <!-- Logo a la izquierda -->
-          <img src="../images/Logo1.png" alt="Logo">
-          <h1 class="slogan">Vive como un Campeon</h1>
-      </div>
- <div class="navbar-logo-izquierda">
-    <div class="container">
-        <div class="menu-inicio">
-            <ul class="menu_principal-pr">
-                <li class="item-0"><a href="./e_pesas.html">Ejercicio con pesas</a></li>
-                        <li class="item-1"><a href="./e_casa.html">Ejercicio en casa</a></li>
-                        <li class="item-2"><a href="./e_libre.html">Ejercicio Libre</a></li>
-                        <li class="item-3"><a href="./playlist.html">Playlist</a></li>
-                        <li class="item-4"><a href="./p_frecuentes.html">Preguntas Frecuentes</a></li>
-                        <li class="item-5"><a href="./contacto.html">¿Quien soy?</a></li>
-                        <li class="item-6"><a href="../index.html">Home</a></li>
-            </ul>
-        </div>
+      <div class="logo-boton2"> <!-- Logo a la izquierda -->
+        <img src="../images/Logo1.png" alt="Logo">
+        <h1 class="slogan2">Vive como un Campeon</h1>
     </div>
- </div>
+    <div class="center-container menu-2">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent"">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="../Pages/e_pesas.html">E. Pesas</a>
+              <a class="nav-link" href="../Pages/e_casa.html">E.Casa</a>
+              <a class="nav-link" href="../Pages/e_libre.html">E.Libre</a>
+              <a class="nav-link" href="../Pages/playlist.html">Playlist</a>
+              <a class="nav-link" href="../Pages/p_frecuentes.html">P.Frecuentes</a>
+              <a class="nav-link" href="../Pages/contacto.html">¿Quien Soy?</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
  <img class="gohan-1 pr"src="../images/gohan.jpg" alt="gohan">
 </header>
+<main>
 <div>
-    <div class="text-block-pr">PREGUNTAS FRECUENTES</div>
+    <div class="text-block-preguntas">PREGUNTAS FRECUENTES</div>
 </div>
-</main>
+
 <!-- --------------------------------------------------------------- -->
-<div class="cuadro">
-    <img class="goku" src="../images/ultrainst.png" alt="toro">
-    <div class="card_ejemplo">
-        <h2>Te has cuestionado miles de cosas, una y otra vez? porque se debe comer esto o por que se debe entrenar de esta forma? todas tus dudas resueltas aqui.</h2>
+<section>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+        ¿Cuál es la diferencia entre cardio y entrenamiento de fuerza?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>R/</strong> El cardio se enfoca en mejorar la resistencia cardiovascular y quemar calorías, mientras que el entrenamiento de fuerza se centra en desarrollar músculo y fuerza. 
+      </div>
     </div>
-    <img class="vegeta" src="../images/vegeta.png" alt="toro">
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        ¿Cuánto tiempo debo hacer ejercicio cada día?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>R/</strong> La cantidad de ejercicio recomendada varía, pero generalmente se sugiere al menos 150 minutos de actividad moderada a la semana o 75 minutos de actividad intensa. 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        ¿Es necesario ir al gimnasio para ponerse en forma?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>R/</strong>  No es necesario. Puedes mantener una rutina de fitness efectiva en casa utilizando tu propio peso corporal, bandas elásticas o pesas libres. El gimnasio es una opción, pero no la única.
+      </div>
+    </div>
+  </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          ¿Debo tomar suplementos nutricionales?
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>R/</strong> No es necesario tomar suplementos si tienes una dieta equilibrada. Sin embargo, algunas personas pueden beneficiarse de suplementos como proteína en polvo o vitaminas
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+          ¿Cuál es la importancia de la nutrición en el fitness?
+        </button>
+      </h2>
+      <div id="collapseFive" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>R/</strong>  La nutrición adecuada es esencial para alcanzar tus objetivos de fitness. Debes consumir una dieta equilibrada que incluya proteínas, carbohidratos, grasas saludables y micronutrientes para mantener la energía y la recuperación.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+          ¿Cuánto tiempo tomará ver resultados?
+        </button>
+      </h2>
+      <div id="collapseSix" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>R/</strong> Los resultados varían según la persona, pero generalmente lleva varias semanas o incluso meses ver cambios significativos. La consistencia en la rutina de ejercicio y la dieta es clave.
+        </div>
+      </div>
+    </div>
 </div>
+</section>
 <!-- --------------------------------------------------------- -->
 <section>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../images/rap.jpg" class="d-block  imagen" alt="...">
+            <img src="../images/carrusel1.jpg" class="d-block  imagen" alt="...">
           </div>
           <div class="carousel-item active">
-            <img src="../images/croosover.jpg" class="d-block  imagen" alt="...">
+            <img src="../images/carrusel2.jpg" class="d-block  imagen" alt="...">
           </div>
           <div class="carousel-item active">
-            <img src="../images/stick.jpg" class="d-block  imagen" alt="...">
+            <img src="../images/carrusel3.jpg" class="d-block  imagen" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -70,6 +145,7 @@
         </button>
       </div>
 </section>
+</main>
 <!-- --------------------------------------------------------------------------------- -->
 
 <!-- ---------------------------------------------------------------------------------- -->
@@ -98,7 +174,7 @@
           <div class="footer-links">
               <h4>Sigueme</h4>
               <div class="social-link">
-                  <a href="https://www.facebook.com/nicolas.lozano.9083"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.facebook.com/nicolas.lozano.9083"><i class="fab fa-facebook"></i></a>
                   <a href="#"><i class="fab fa-instagram"></i></a>
                   <a href="#"><i class="fab fa-twitter"></i></a>
                   <a href="#"><i class="fab fa-linkedin"></i></a>

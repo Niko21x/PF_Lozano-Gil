@@ -1,282 +1,196 @@
 
-.bodypesas {
-    background-color: black;
-    }
- .ejemplo {
-      background-color: black;
-    }
- .index {
-      background-color: black;
-    } 
- .bodypesas {
-    background-color: black;
-    }
- .bodycontacto {
-     background-color: black;
-    }
-    .bodyplaylist {
-      background-color: black;
-      }
-.logo-boton {
- 
-    flex: 1;
+body {
+background-color: black;
+max-width: 100%;
+}
+.logo-boton2 {
+max-width: 100%;
+flex: 1;
 
-    .slogan {
-        color: white;
-        font-family: $my-font;
-        font-size: 17px;
-        font-weight: 400;
-        position: relative;
-        left: 18px;
-        @include mobile {
-          font-size: 15px;
-          position: relative;
-          left: 3px;
-        }
-      }
+.slogan2 {
+max-width: 100%;
+color: white;
+font-family: $my-font;
+font-size: 17px;
+font-weight: 400;
+position: relative;
+left: 30px;
+@include mobile {
+max-width: 100%;
+display: none;
+}
+}
 
-      & img {
-        width: 180px;
-        @include mobile {
-          width: 130px;
-        }
-      }
-  
-  }
+& img {
+max-width: 100%;
+width: 100px;
+position: relative;
+left: 55px;
+@include mobile {
+max-width: 100%;
+width: 100px;
+position: relative;
+left:-5px;
+
+}
+}
+
+}
 
 
 
-.menu_principal {
-    display: flex;
-    position: relative;
-    left: 350px;
-    bottom: 80px;
-    @include mobile {
-          display: flex;
-          flex-direction: column;
-          
-    }
-
-    & a {
-        text-decoration: none;
-        color: white;
-       
-       }
-
-       .item-0 {
-        position: relative;
-        right: 80px;}
-      
-      .item-1 {
-        position: relative;
-        right: 50px;
-        @include mobile {
-         right: 80px; 
-        }
-        
-      }
-      .item-2 {
-        position: relative;
-        right: 30px;
-        @include mobile {
-          right: 80px; 
-         }
-      }
-      .item-3 {
-        position: relative;
-        right: 20px;
-        @include mobile {
-          right: 80px; 
-         }
-      }
-      .item-4 {
-        position: relative;
-        @include mobile {
-          right: 80px; 
-         }
-      
-      }
-      .item-5 {
-      position: relative;
-      left: 10px;
-      @include mobile {
-        left: -80px; 
-       }
-      
-      }
-      .item-6 {
-        position: relative;
-        left: 30px;
-        @include mobile {
-          left: -80px; 
-         }
-      }
-      & li a:hover {
-        color: aqua;
-      }
-    }
 
 
-      .menu_principal-pr {
-        display: flex;
-        position: relative;
-        left: 200px;
-        bottom: 80px;
-        @include mobile {
-          display: flex;
-          flex-direction: column;
-          
-    }
-        & a {
-            text-decoration: none;
-            color: white;
-           }
-    
-           .item-0 {
-            position: relative;
-            right: 80px;
-          }
-          
-          .item-1 {
-            position: relative;
-            right: 50px;
-             @include mobile {
-         right: 80px; 
-        }
-            
-          }
-          .item-2 {
-            position: relative;
-            right: 30px;
-             @include mobile {
-          right: 80px; 
-        }
-          }
-          .item-3 {
-            position: relative;
-            right: 20px;
-             @include mobile {
-          right: 80px; 
-        }
-          }
-          .item-4 {
-            position: relative;
-             @include mobile {
-            right: 80px; 
-        }
-          
-          }
-          .item-5 {
-          position: relative;
-          left: 10px;
-         @include mobile {
-          left: -80px; 
-       }
-          }
-          .item-6 {
-            position: relative;
-            left: 30px;
-             @include mobile {
-          left: -80px; 
-       }
-          }
-          & li a:hover {
-            color: aqua;
-          }
-        }
-        .menu_principal-cn {
-          display: flex;
-          position: relative;
-          left: 350px;
-          bottom: 80px;
-          @include mobile {
-            display: flex;
-            flex-direction: column;
-            
-      }
-          & a {
-              text-decoration: none;
-              color: white;
-             }
-      
-             .item-0 {
-              position: relative;
-              right: 80px;
-            }
-            
-            .item-1 {
-              position: relative;
-              right: 50px;
-               @include mobile {
-           right: 80px; 
-          }
-              
-            }
-            .item-2 {
-              position: relative;
-              right: 30px;
-               @include mobile {
-            right: 80px; 
-          }
-            }
-            .item-3 {
-              position: relative;
-              right: 20px;
-               @include mobile {
-            right: 80px; 
-          }
-            }
-            .item-4 {
-              position: relative;
-               @include mobile {
-              right: 80px; 
-          }
-            
-            }
-            .item-5 {
-            position: relative;
-            left: 10px;
-           @include mobile {
-            left: -80px; 
-         }
-            }
-            .item-6 {
-              position: relative;
-              left: 30px;
-               @include mobile {
-            left: -80px; 
-         }
-            }
-            & li a:hover {
-              color: aqua;
-            }
-          }
-       
-    
-    
-    
+
+.menu-2 {
+max-width: 100%;
+width: 600px;
+position: relative;
+left: 380px;
+bottom: 75px; 
+& :hover {
+color: rgb(116, 7, 241);
+}
+@include mobile {
+max-width: 100%;
+position: relative;
+left: 220px;
+top: -65px;
+
+}
+
+}
 
 
- 
-  .gohan-1 {
-    width: 150px;
-    position: relative;
-    left: 1100px;
-    bottom: 160px;
-    @include mobile {
-     left: 550px;
-     bottom: 220px;
-  }
-  }
- 
-  .pr {
-      @include mobile {
-     bottom: 270px;
-  }
-  }
 
-  .g {
-    @include mobile {
-      bottom: 220px;
-   }
-  }
+.gohan-1 {
+max-width: 100%;
+width: 100px;
+position: relative;
+left: 1140px;
+bottom: 150px;
+@include mobile {
+max-width: 100%;
+display: none;
+}
+}
+
+
+
+
+.text-block {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(30, 0, 255, .2);
+@include mobile {
+position: relative;
+bottom: 40px;
+font-size: 20px;
+}
+}
+.text-block-libre {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(0, 247, 82, 0.781);
+@include mobile {
+max-width: 100%;
+position: relative;
+bottom: 10px;
+font-size: 20px;
+}
+}
+.text-block-casa {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(255, 0, 0, 0.781);
+@include mobile {
+position: relative;
+bottom: 10px;
+font-size: 20px;
+}
+}
+.text-block-contacto {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(255, 255, 255, 0.781);
+@include mobile {
+position: relative;
+bottom: 40px;
+font-size: 20px;
+}
+}
+
+.text-block-preguntas {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(244, 248, 5, 0.781);
+@include mobile {
+position: relative;
+bottom: 20px;
+font-size: 20px;
+margin-bottom: 120px
+}
+}
+.text-block-playlist {
+max-width: 100%;
+position: relative;
+bottom: 120px;
+color: white;
+text-align: center;
+font-family: Georgia, Times, Times New Roman, serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 100px;
+text-decoration: line-through;
+box-shadow: -1px -4px 20px 20px rgba(0, 222, 238, 0.781);
+@include mobile {
+position: relative;
+bottom: 20px;
+font-size: 20px;
+margin-bottom: 120px
+}
+}
+.navbar-brand {
+max-width: 100%;
+color: orange;
+}
